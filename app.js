@@ -5,3 +5,12 @@ const jokes = [
   "A little old lady. A little old lady who? I didn't know you could yodel!",
   "Mikey. Mikey who? Mike doesn't fit in the key hole!",
 ];
+
+const punchLine = document.getElementsByClassName("punch-line");
+
+const randomJoke = () => {
+  const math = Math.floor(Math.random() * 4);
+  return jokes[math];
+};
+
+console.log(randomJoke());
