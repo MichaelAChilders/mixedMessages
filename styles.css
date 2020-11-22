@@ -6,11 +6,30 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-size: 30px;
 }
 
 .knock-knock {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   flex-direction: column;
+  padding: 2rem;
+  font-size: 50px;
+}
+
+button {
+  cursor: pointer;
+  padding: 0.25rem;
+  margin: 1rem;
+  font-size: 40px;
+}
+
+.punch-line {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  margin: 1rem;
+  font-size: 75px;
 }
