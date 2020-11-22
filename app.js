@@ -6,11 +6,15 @@ const jokes = [
   "Mikey. Mikey who? Mike doesn't fit in the key hole!",
 ];
 
-const punchLine = document.getElementsByClassName("punch-line");
+//Elements
+const button = document.querySelector(".button");
 
+//Functions
 const randomJoke = () => {
   const math = Math.floor(Math.random() * 4);
   return jokes[math];
 };
 
-console.log(randomJoke());
+button.addEventListener("click", function () {
+  document.querySelector("span").innerHTML = randomJoke();
+});
