@@ -2,7 +2,7 @@
 
 ## Summary
 
-This project is a simple mixed message generator. The main reason for this project is for code practice and to help practice git/github
+This project is a simple Knock-Knock joke generator. The main reason for this project is for code practice and to help practice git/github
 
 ## Technologies
 
